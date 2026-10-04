@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://subtracker-9a5z.onrender.com/api",
 });
 
 // Automatically attach JWT to authenticated requests
