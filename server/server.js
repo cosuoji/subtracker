@@ -11,7 +11,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://paymentrackerz.netlify.app/"
+  origin: "https://paymentrackerz.netlify.app"
 }));
 
 app.use(express.json());
